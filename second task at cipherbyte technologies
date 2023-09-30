@@ -1,0 +1,12 @@
+print('--------------WELCOME TO XYZ Shop--------------\n')
+total = 0
+item=int(input("enter the number of item"))
+i=1
+while(i<=item):
+    name = input('Enter Item name:')
+    quantity=int(input("enter the quantity"))
+    price=float(input("enter the price"))
+    amt=price*quantity
+    total=total+amt
+    i=i+1
+print("your total amount is",total,"/-)
